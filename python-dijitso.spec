@@ -1,4 +1,5 @@
-%define	module dijitso
+%global	module dijitso
+%global fname %(n=%{name}; echo ${n:0:1})
 
 Summary:	An instant inlining of C and C++ code in Python
 Name:		python-%{module}
@@ -8,6 +9,7 @@ License:	LGPLv3+
 Group:		Development/Python
 URL:		http://fenicsproject.org
 Source0:	https://bitbucket.org/fenics-project/%{module}/downloads/%{module}-%{version}.tar.gz
+#Source0:	https://pypi.io/packages/source/%{fname}/%{module}/%{module}-%{version}.tar.gz
 BuildArch:	noarch
 
 BuildRequires:	pkgconfig(python3)
