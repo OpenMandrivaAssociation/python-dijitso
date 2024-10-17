@@ -7,7 +7,7 @@ Version:	2019.1.0
 Release:	1
 License:	LGPLv3+
 Group:		Development/Python
-URL:		http://fenicsproject.org
+URL:		https://fenicsproject.org
 Source0:	https://bitbucket.org/fenics-project/%{module}/downloads/%{module}-%{version}.tar.gz
 #Source0:	https://pypi.io/packages/source/%{fname}/%{module}/%{module}-%{version}.tar.gz
 BuildArch:	noarch
