@@ -4,7 +4,7 @@
 Summary:	An instant inlining of C and C++ code in Python
 Name:		python-%{module}
 Version:	2019.1.0
-Release:	2
+Release:	3
 License:	LGPLv3+
 Group:		Development/Python
 URL:		https://fenicsproject.org
