@@ -4,7 +4,7 @@
 Summary:	An instant inlining of C and C++ code in Python
 Name:		python-%{module}
 Version:	2019.1.0
-Release:	3
+Release:	4
 License:	LGPLv3+
 Group:		Development/Python
 URL:		https://fenicsproject.org
@@ -13,11 +13,11 @@ Source0:	https://bitbucket.org/fenics-project/%{module}/downloads/%{module}-%{ve
 BuildArch:	noarch
 
 BuildRequires:	pkgconfig(python3)
-BuildRequires:	python3dist(numpy)
-BuildRequires:	python3dist(pytest)
-BuildRequires:	python3dist(setuptools)
+BuildRequires:	python%{pyver}dist(numpy)
+BuildRequires:	python%{pyver}dist(pytest)
+BuildRequires:	python%{pyver}dist(setuptools)
 
-BuildRequires:	python3dist(mpi4py)
+BuildRequires:	python%{pyver}dist(mpi4py)
 BuildRequires:  openmpi-devel
 
 %description
